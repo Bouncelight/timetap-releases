@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- Timetap on Unraid (guides/unraid.md): Docker > Add Container > Template: timetap fills in everything below. -->
+<Container version="2">
+  <Name>timetap</Name>
+  <Repository>ghcr.io/bouncelight/timetap:latest</Repository>
+  <Registry>https://github.com/users/Bouncelight/packages/container/package/timetap</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Bouncelight/timetap-releases</Support>
+  <Project>https://github.com/Bouncelight/timetap-releases</Project>
+  <Overview>Timetap: working hours and projects, clocked with NFC readers, the web page or the iPhone app. The first login (Admin and a password) is printed once in the container's log: click the icon, then Logs.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Bouncelight/timetap-releases/main/unraid/timetap.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/Bouncelight/timetap-releases/main/unraid/timetap.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web page (http)" Target="8080" Default="8088" Mode="tcp" Description="The port for the web page, the readers and the app. Unraid's own page has 80, so Timetap uses another." Type="Port" Display="always" Required="true" Mask="false">8088</Config>
+  <Config Name="Secure web page (https)" Target="8443" Default="8443" Mode="tcp" Description="Used once IT &gt; Secure address is set up." Type="Port" Display="always" Required="false" Mask="false">8443</Config>
+  <Config Name="Data" Target="/data" Default="/mnt/user/appdata/timetap" Mode="rw" Description="The database, backups and settings. Back this folder up." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/timetap</Config>
+  <Config Name="Time zone" Target="TZ" Default="Europe/Oslo" Mode="" Description="The time zone hours are counted in." Type="Variable" Display="always" Required="true" Mask="false">Europe/Oslo</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="The user Timetap's files belong to (Unraid's appdata: 99, nobody)." Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="The group Timetap's files belong to (Unraid's appdata: 100, users)." Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="This server's address" Target="TIMETAP_ADDRESS" Default="" Mode="" Description="This Unraid server's IP address on your network, e.g. 192.168.1.20. Only needed for https (IT &gt; Secure address)." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+</Container>
