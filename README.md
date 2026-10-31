@@ -42,4 +42,5 @@ someone presses **Install** on its IT page. Each release comes with:
 
 The Docker image is `ghcr.io/bouncelight/timetap`.
 
-Questions and problems: [open an issue](https://github.com/Bouncelight/timetap-releases/issues).
+Questions and problems: [open an issue](https://github.com/Bouncelight/timetap-releases/issues), or email
+[contact@timetap.no](mailto:contact@timetap.no). Invitation codes for a Timetap address: [code@timetap.no](mailto:code@timetap.no).

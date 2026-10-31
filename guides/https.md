@@ -14,7 +14,7 @@ The simple way: no account, no domain.
 1. **IT > Secure address** > **A Timetap address**.
 2. Type a name - it becomes `name.timetap.no`. The page says whether it is free.
 3. Type your **invitation code** and click **Get this address**. A code works once, for one name. If you didn't get
-   one with your Timetap, [ask for one](https://github.com/Bouncelight/timetap-releases/issues).
+   one with your Timetap, email [code@timetap.no](mailto:code@timetap.no) and say which name you'd like.
 4. Click **Get the certificate**. It takes about a minute.
 5. **Test from this computer**, then **Send everyone to the secure address**.
 
