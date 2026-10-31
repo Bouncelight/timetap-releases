@@ -4,8 +4,8 @@
 > [tell us how it went](https://github.com/Bouncelight/timetap-releases/issues) - corrections are welcome.
 
 Needs a Synology that runs **Container Manager** (DSM 7.2 or newer, most "plus" models with an Intel or AMD
-processor, and some ARM models). You get the web page and the iPhone app; the NFC readers need the
-[Raspberry Pi](raspberry-pi.md).
+processor, and some ARM models). You get the web page, the iPhone app and
+[NFC readers](readers.md) join your normal WiFi.
 
 ## 1. A folder for Timetap
 

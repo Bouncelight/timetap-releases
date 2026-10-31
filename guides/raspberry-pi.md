@@ -8,7 +8,7 @@ The Pi is the complete Timetap: the web page, the iPhone app's server, and its o
 * A **microSD card** (16 GB or more) and a good power supply (5 V, 2.5 A for a Pi Zero 2 W).
 * For NFC readers: a **USB WiFi adapter** that can be an access point on 2.4 GHz. The Pi's own WiFi stays on your
   network, and the adapter runs the Timetap WiFi the readers join. Without readers you don't need it.
-* A computer with [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
+* A computer - Linux, Mac or Windows - with [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
 ## 1. Put Raspberry Pi OS on the card
 
@@ -26,7 +26,8 @@ In Raspberry Pi Imager:
 
 ## 2. Install Timetap
 
-Log in to the Pi from your computer. On a Mac, open Terminal; on Windows, PowerShell. Use the user name you chose:
+Log in to the Pi from your computer: on Linux or a Mac, open Terminal; on Windows, PowerShell. Use the user name you
+chose:
 
 ```bash
 ssh yourname@timetap.local

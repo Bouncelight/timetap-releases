@@ -1,6 +1,6 @@
 # Timetap on Unraid
 
-Tested. You get the web page and the iPhone app; the NFC readers need the [Raspberry Pi](raspberry-pi.md).
+Tested. You get the web page, the iPhone app and [NFC readers](readers.md) join your normal WiFi.
 
 Timetap isn't in Unraid's **Apps** yet, so the template goes on the server with one command first. After that it is
 installed like any other app.

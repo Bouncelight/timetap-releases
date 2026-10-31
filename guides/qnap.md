@@ -4,7 +4,7 @@
 > [tell us how it went](https://github.com/Bouncelight/timetap-releases/issues) - corrections are welcome.
 
 Needs **Container Station** (QTS 5 or QuTS hero, a model with an Intel, AMD or 64-bit ARM processor). You get the web
-page and the iPhone app; the NFC readers need the [Raspberry Pi](raspberry-pi.md).
+page, the iPhone app and [NFC readers](readers.md) join your normal WiFi.
 
 ## 1. A folder for Timetap
 

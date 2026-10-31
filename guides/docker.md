@@ -1,7 +1,7 @@
 # Timetap with Docker
 
-For any Linux computer or server that has Docker with Compose. On Docker you get the web page and the iPhone app; the
-NFC readers need the [Raspberry Pi](raspberry-pi.md), which runs its own WiFi for them.
+For any Linux computer or server that has Docker with Compose. You get the web page, the iPhone app and
+[NFC readers](readers.md) join your normal WiFi (on a [Raspberry Pi](raspberry-pi.md) they can have a WiFi of their own).
 
 Guides for particular systems: [Unraid](unraid.md), [Synology](synology.md), [QNAP](qnap.md), [Proxmox](proxmox.md).
 

@@ -3,8 +3,8 @@
 > **Not tested yet.** Written from Proxmox's documentation. If you try it, please
 > [tell us how it went](https://github.com/Bouncelight/timetap-releases/issues) - corrections are welcome.
 
-Timetap runs in a small Debian container (LXC) with Docker inside it. You get the web page and the iPhone app; the
-NFC readers need the [Raspberry Pi](raspberry-pi.md).
+Timetap runs in a small Debian container (LXC) with Docker inside it. You get the web page, the iPhone app and
+[NFC readers](readers.md) join your normal WiFi.
 
 ## 1. The container
 

@@ -20,7 +20,8 @@ at any time.
 | QNAP | [QNAP](guides/qnap.md) | Not tested yet |
 | Proxmox | [Proxmox](guides/proxmox.md) | Not tested yet |
 
-The NFC readers need the Raspberry Pi: it runs its own WiFi for them. On Docker you use the web page and the app.
+NFC readers work with all of them. On a Raspberry Pi they can have their own Timetap WiFi; elsewhere they join your
+normal WiFi.
 
 ## After installing
 
