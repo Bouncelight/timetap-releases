@@ -33,7 +33,8 @@ the holiday list on Month.
 
 On **Week**, tap a work period to change its times or delete it, or use a day's **⋯** menu: *Add hours* (a forgotten
 day), a **comment**, or **mark the day**. Connected, this changes your own hours on the server, the same as on the web
-page; the phone has to reach the server for it.
+page. Away from the server, changed times, deleted periods, added hours and comments are kept on the phone and sent when
+it reaches the server again; marking a day needs the server.
 
 ## Time bank and the monthly report
 
@@ -41,11 +42,17 @@ page; the phone has to reach the server for it.
 mark them as paid overtime, priced by your own overtime rule - and the working-time limits. **Month > Monthly report
 (PDF)** makes a report of the month to send your employer.
 
-## Tags without a server
+## Tags
 
-**Settings > Tags > Pair a tag**: hold the phone to an NFC tag and choose *Clock in/out* or a project. Timetap also
-writes a small link onto the tag, so afterwards holding the iPhone to it shows *Open in Timetap* - one tap. Any NTAG213
-or NTAG215 tag works.
+**Settings > Tags > Pair a tag**, choose what the tag does, and hold the top of the phone to it. Timetap writes a small
+link onto the tag, so afterwards holding an iPhone to it shows *Open in Timetap* - one tap, without opening the app first.
+Use NTAG213, NTAG215 or NTAG216 tags (often sold as NFC stickers); other kinds can't hold the link. If the tag already
+has something on it, or already does something else, the phone asks before replacing it.
+
+* **On the phone alone:** *Clock in or out*, or a project.
+* **Connected to your Timetap:** *My tag* - your own tag, which also clocks you in and out on the readers. Admins can
+  also pair **project tags**: they work on everyone's phone and on the readers. A tag that was paired on a reader gets
+  the link with *Add the link to a paired tag*. Someone else's person tag does nothing on your phone.
 
 ## Backups
 
