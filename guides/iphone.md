@@ -1,6 +1,7 @@
 # The iPhone app
 
-> The app is in testing (TestFlight) and not in the App Store yet.
+> **[Get Timetap on the App Store](https://apps.apple.com/app/id6828616436)** - "Timetap: Hours & Projects" (in
+> Norwegian "Timetap: Timer og prosjekter"). One purchase, both versions included. iOS 17 or newer.
 
 The app works two ways:
 
